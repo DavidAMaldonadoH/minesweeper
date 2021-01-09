@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Minesweeper</div>
+      <div class="grid"></div>
+      <div class="sidebar">
+        <div class="flags animate__animated animate__bounce">
+          Flags left: <span id="flags-left">20</span>
+        </div>
+        <div id="result"></div>
+        <div class="button hvr-pulse">
+          <span class="button--text">New Game</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
